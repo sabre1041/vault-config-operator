@@ -1,5 +1,5 @@
+# Vault Configuration Operator
 
-@@ -4,6 +4,7 @@
 ![build status](https://github.com/redhat-cop/vault-config-operator/workflows/push/badge.svg)
 [![Go Report Card](https://goreportcard.com/badge/github.com/redhat-cop/vault-config-operator)](https://goreportcard.com/report/github.com/redhat-cop/vault-config-operator)
 ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/redhat-cop/vault-config-operator)
