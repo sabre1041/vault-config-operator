@@ -8,8 +8,8 @@ on:
 jobs:
   shared-operator-workflow:
     name: shared-operator-workflow
-    uses: redhat-cop/github-workflows-operators/.github/workflows/pr-operator.yml@v1.0.2
-    with: 
+    uses: sabre1041/github-workflows-operators/.github/workflows/pr-operator.yml@fix-go-version
+    with:
       RUN_UNIT_TESTS: true
       RUN_INTEGRATION_TESTS: true
       RUN_HELMCHART_TEST: true
