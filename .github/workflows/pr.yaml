@@ -8,7 +8,7 @@ on:
 jobs:
   shared-operator-workflow:
     name: shared-operator-workflow
-    uses: redhat-cop/sabre1041/.github/workflows/pr-operator.yml@vfix-go-version
+    uses: sabre1041/github-workflows-operators/.github/workflows/pr-operator.yml@vfix-go-version
     with:
       RUN_UNIT_TESTS: true
       RUN_INTEGRATION_TESTS: true
